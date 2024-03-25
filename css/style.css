@@ -94,3 +94,15 @@ body {
     color: red;
     margin-right: 4px;
 }
+
+.hover-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    display: block;
+}
+
+.content:hover .main-img {
+    display: none;
+}
