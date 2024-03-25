@@ -38,3 +38,33 @@ body {
 .bold {
     font-weight: bold;
 }
+
+.label {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    text-align: center;
+    padding: 8px 15px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.discount {
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+.sustainability {
+    background-color: green;
+    padding: 5px 8px;
+    color: white;
+    font-size: 13px;
+}
