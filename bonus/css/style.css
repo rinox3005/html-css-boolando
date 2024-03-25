@@ -21,6 +21,18 @@ body {
     flex-wrap: wrap;
 }
 
+header {
+    position: fixed;
+    background-color: #ff6900;
+    box-shadow: 0 2px rgba(158, 157, 157, 0.63);
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    padding-top: 110px;
+}
+
 .col-33 {
     width: calc(100% / 3 - 40px);
     margin: 20px;
@@ -53,6 +65,22 @@ body {
     padding: 1px 11px;
     background-color: white;
     font-size: 30px;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 /* UTILITY */
@@ -108,6 +136,36 @@ body {
 }
 
 .heart:hover {
-    display: inline-block;
     color: red;
+}
+
+.logo {
+    height: 25px;
+}
+
+.unstyled-list {
+    list-style-type: none;
+}
+
+.unstyled-list li {
+    display: inline-block;
+}
+
+.unstyled-list li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.icons-header {
+    height: 18px;
+    padding-left: 8px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(105%) contrast(106%);
+}
+
+.foot {
+    width: 100%;
+    background-color: grey;
+    padding: 30px 100px;
+
 }
