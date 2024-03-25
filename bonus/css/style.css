@@ -100,9 +100,14 @@ body {
 }
 
 .content:hover .hover-img {
-    display: block;
+    display: inline-block;
 }
 
 .content:hover .main-img {
     display: none;
+}
+
+.heart:hover {
+    display: inline-block;
+    color: red;
 }
